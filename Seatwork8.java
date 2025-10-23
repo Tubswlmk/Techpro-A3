@@ -1,5 +1,5 @@
-public class Seatwork7 {
-        public static void main(String[] args) {
+public class Seatwork8 {
+         public static void main(String[] args) {
 
             
         char grade = 3;
@@ -19,7 +19,7 @@ public class Seatwork7 {
           default:
           System.out.println("Invalid grade");
             }
-          System.out.println("Your grade is" + grade);
+          System.out.println("Your grade is " + grade);
 
             }
     }
