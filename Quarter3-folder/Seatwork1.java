@@ -1,1 +1,42 @@
+import java.util.Scanner;
 
+public class Seatwork1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask how many grades
+        System.out.print("How many grades (1 to 5)? ");
+        int numGrades = scanner.nextInt();
+
+        double sum = 0;
+
+        // Input grades
+        for (int i = 1; i <= numGrades; i++) {
+            System.out.print("Enter grade " + i + ": ");
+            int grade = scanner.nextInt();
+            sum += grade;
+        }
+
+        // Calculate average
+        double average = sum / numGrades;
+        System.out.println("Average: " + average);
+
+        // Determine letter grade
+        char letterGrade;
+        if (average >= 90) {
+            letterGrade = 'A';
+        } else if (average >= 80) {
+            letterGrade = 'B';
+        } else if (average >= 70) {
+            letterGrade = 'C';
+        } else if (average >= 60) {
+            letterGrade = 'D';
+        } else {
+            letterGrade = 'F';
+        }
+
+        System.out.println("Letter grade: " + letterGrade);
+
+        scanner.close();
+    }
+}
