@@ -15,11 +15,9 @@ public class Seatwork1 {
             sum += grade;
         }
 
-        // Calculate average
         double average = sum / numGrades;
         System.out.println("Average: " + average);
 
-        // Determine letter grade
         char letterGrade;
         if (average >= 90) {
             letterGrade = 'A';
