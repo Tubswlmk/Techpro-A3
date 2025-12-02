@@ -8,7 +8,7 @@ public class Sw4part1 {
     }
 //main class below
     public static void main(String[] args) {
-        PaymentProcessor processor = new PaymentProcessor();
+        Sw4part1 processor = new Sw4part1();
         processor.processPayment(100.0, "ETH");
         processor.processPayment(250.0, "Vbucks", "Robux"); //brokeahh
     }

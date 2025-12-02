@@ -9,7 +9,7 @@ public class Sw4part2 {
 
     // Main class below
     public static void main(String[] args) {
-        ShapeAreaCalculator calc = new ShapeAreaCalculator();
+        Sw4part2 calc = new Sw4part2();
 
         int squareArea = calc.calculateArea(5);
         double rectangleArea = calc.calculateArea(4.0, 6.0);
