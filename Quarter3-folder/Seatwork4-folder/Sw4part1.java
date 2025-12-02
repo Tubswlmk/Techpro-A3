@@ -1,5 +1,4 @@
-PaymentProcessor
-public class PaymentProcessor {
+public class Sw4part1 {
     public void processPayment(double amount, String currency) {
         System.out.println("Processing payment of " + amount + " " + currency);
     }
