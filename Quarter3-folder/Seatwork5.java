@@ -1,5 +1,6 @@
 abstract class BankAccount {
         private String accountNumber;
+        //pasted from JVDROID
             private double balance;
 
                 public static final String RESET = "\u001B[0m";
