@@ -39,6 +39,7 @@ public class Seatwork12 {
 
         if (accountNumber < 0 || accountNumber >= balances.length) {
             System.out.println("Invalid account number. Exiting...");
+            scanner.close();
             return;
         }
 
@@ -67,6 +68,7 @@ public class Seatwork12 {
                     break;
                 case 4:
                     System.out.println("Thank you for banking with us!");
+                    scanner.close();
                     return; 
                 default:
                     System.out.println("Invalid choice. Please try again.");
