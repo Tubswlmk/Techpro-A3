@@ -34,7 +34,7 @@ class Cow extends Animal {
 		void sound() { System.out.println("Squeak squeak!"); }
 }
 
-public class Seatwork3 {
+public class Seatwork3Q3 {
 		public static void main(String[] args) {
 			
 			Dog dog = new Dog();
