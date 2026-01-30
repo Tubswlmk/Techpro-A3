@@ -1,4 +1,4 @@
-public class Seatwork6 {
+public class Seatwork6Q1 {
     public static void main(String[] args) {
         int dice = 1;
         while (dice <= 6) {
