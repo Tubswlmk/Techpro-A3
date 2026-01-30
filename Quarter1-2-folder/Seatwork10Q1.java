@@ -1,4 +1,4 @@
-public class Seatwork10 {
+public class Seatwork10Q1 {
 public static void main(String[] args) {
 
     for(int x = 10; x < 20; x = x + 1) {
