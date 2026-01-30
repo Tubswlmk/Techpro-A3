@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Seatwork1 {
+public class Seatwork1Q3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
      
