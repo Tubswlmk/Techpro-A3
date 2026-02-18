@@ -10,4 +10,4 @@ public class Example1 {
 
     }
 }
-//Output on VScode opened a new window on the task bar named "Test1"
+//Output on VScode opened a blank new window on the task bar named "Test1"
